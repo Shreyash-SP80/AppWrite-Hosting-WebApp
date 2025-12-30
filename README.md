@@ -64,3 +64,20 @@ In this project, **Appwrite Database** is used to store contact form submissions
     ├── app.js
     └── README.md
 ```
+
+
+---
+
+## ⚙️ Appwrite Setup (Step-by-Step)
+
+### 1️⃣ Create an Appwrite Project
+- Go to https://cloud.appwrite.io
+- Create a new project
+- Copy the **Project ID**
+
+---
+
+### 2️⃣ Add Web Platform
+- Go to **Project Settings → Platforms**
+- Add **Web Platform**
+- Add your GitHub Pages domain as hostname:
