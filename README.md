@@ -80,4 +80,27 @@ In this project, **Appwrite Database** is used to store contact form submissions
 ### 2️⃣ Add Web Platform
 - Go to **Project Settings → Platforms**
 - Add **Web Platform**
-- Add your GitHub Pages domain as hostname:
+- Add your GitHub Pages domain as hostname:  ``` your-username.github.io ```
+
+
+---
+
+### 3️⃣ Create Database
+- Go to **Databases**
+- Create a database (e.g. `ContactDB`)
+
+---
+
+### 4️⃣ Create Table (Collection)
+- Create a table named `messages`
+- Add columns:
+  - `name` (string)
+  - `phone` (string)
+  - `email` (string)
+  - `message` (string)
+
+---
+
+### 5️⃣ Set Permissions
+- Allow **Create** permission for role:
+
