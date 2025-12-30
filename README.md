@@ -104,3 +104,85 @@ In this project, **Appwrite Database** is used to store contact form submissions
 ### 5️⃣ Set Permissions
 - Allow **Create** permission for role: ``` Any ```
 
+(This allows public form submission)
+
+---
+
+## 🌐 Hosting on GitHub Pages (Step-by-Step)
+
+### 1️⃣ Push Code to GitHub
+- Create a GitHub repository
+- Push `index.html` and `app.js`
+
+---
+
+### 2️⃣ Enable GitHub Pages
+- Go to **Repository Settings**
+- Open **Pages**
+- Source: `main` branch
+- Folder: `/root`
+- Save
+
+---
+
+### 3️⃣ Get Live URL
+GitHub will generate a URL like:
+```
+     https://your-username.github.io/repository-name/
+```
+
+---
+
+### 4️⃣ Add GitHub URL to Appwrite
+- Go to **Appwrite → Project Settings → Platforms**
+- Add hostname: ``` your-username.github.io ```
+
+
+---
+
+## 🧪 How the Form Works
+
+1. User fills the contact form
+2. JavaScript captures input values
+3. Appwrite SDK sends data to the database
+4. Data is stored as a new document in Appwrite
+
+---
+
+## 📌 Practice Purpose Disclaimer
+
+This project is built **only for educational and practice purposes**.
+
+- Not intended for production use
+- No authentication or spam protection
+- Basic validation only
+
+---
+
+## 📷 Screenshot (Optional)
+
+You can add screenshots here to show UI and database entries.
+
+---
+
+## 🙌 Conclusion
+
+This project helped me understand:
+- How frontend connects to backend services
+- How Appwrite works as a BaaS platform
+- Hosting static websites using GitHub Pages
+- Real-world form submission flow
+
+---
+
+## ⭐ Acknowledgements
+
+- Appwrite Documentation: https://appwrite.io/docs
+- GitHub Pages Documentation
+
+---
+
+### 👨‍💻 Author
+**Shreyash Patil**  
+Practice Project | Learning Appwrite & Cloud Integration
+
