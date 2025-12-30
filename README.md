@@ -58,3 +58,9 @@ In this project, **Appwrite Database** is used to store contact form submissions
 ---
 
 ## 📂 Project Structure
+```
+    contact-form/
+    ├── index.html
+    ├── app.js
+    └── README.md
+```
