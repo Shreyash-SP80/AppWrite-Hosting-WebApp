@@ -102,5 +102,5 @@ In this project, **Appwrite Database** is used to store contact form submissions
 ---
 
 ### 5️⃣ Set Permissions
-- Allow **Create** permission for role:
+- Allow **Create** permission for role: ``` Any ```
 
