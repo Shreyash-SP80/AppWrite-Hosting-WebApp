@@ -4,7 +4,7 @@ const databases = new Appwrite.Databases(client);
 
 client
   .setEndpoint("https://cloud.appwrite.io/v1")
-  .setProject("6953ef87002be7db315c"); // PROJECT ID
+  .setProject("6953ef87002be7db315c"); // PROJECT ID 
 
 const form = document.getElementById("contactForm");
 
@@ -37,4 +37,5 @@ form.addEventListener("submit", async (e) => {
     alert(error.message || "Submission failed");
   }
 });
+
 
